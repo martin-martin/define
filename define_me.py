@@ -1,22 +1,13 @@
-
 # coding: utf-8
-
-# In[8]:
 
 import json
 from urllib.request import urlopen
 
-
-# In[11]:
-
+### (largely unrelated) owlbot excursion... ###
 #with urlopen("https://owlbot.info/api/v1/dictionary/owl") as response:
 #    html = response.read()
-
 # should return:
 #[{"type":"noun","defenition":"a nocturnal bird of prey with large eyes, a facial disc, a hooked beak, and typically a loud hooting call.","example":"I love reaching out into that absolute silence, when you can hear the owl or the wind."}]
-
-
-# In[45]:
 
 # example search term
 search_term = "word"
@@ -76,12 +67,4 @@ def print_entries(json_obj):
         print()
 
 
-# In[48]:
-
 query_API("love")
-
-
-# In[ ]:
-
-
-
